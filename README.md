@@ -1,15 +1,14 @@
 # rtfmerger
 
 ---
-## Introduction
-
+### Introduction
 This package currently only does two things:
-    - Merges RTF into a single document: `merge_rtf_files` 
-    - Orients RTF files: `orient_rtf`
+- Merges RTF into a single document: `merge_rtf_files` 
+- Orients RTF files: `orient_rtf`
 
 ---
 
-## Installation
+### Installation
 You can install the lastest version on GitHub with:
 
 ```r

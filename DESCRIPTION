@@ -1,12 +1,10 @@
 Package: rtfmerger
-Title: What the Package Does (One Line, Title Case)
+Title: Helpers for dealing with RTF files in R
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    person("Laus", "Wullum", "", "laus.w@hotmail.com", role = c("aut", "cre"))
+Description: This package defines helper functions for dealing with RTF files.
+License: MIT
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.1

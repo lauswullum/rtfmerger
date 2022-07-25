@@ -1,8 +1,18 @@
-#' Merge RTF files into one single RTF file 
+#' Merge RTFs
 #' 
-#' @param path a vector of RTF file path
+#' Merges RTF files - rtf character vectors - that are read 
+#' linewise using readLine.
+#' 
+#' @param path 
+#'
+#' @return Returns a merged RTF character vector
 #' 
 #' @export
+#'
+#' @examples
+#' paths = c("path1/file1.rtf", "path2/file2.rtf")
+#' mergedrtf = merge_rtf_files(paths)
+#' writeLines(mergedrtf, "mergedfile1andfile2.rtf")
 merge_rtf_files <- function(path){
   
   rtf <- lapply(path, readLines)

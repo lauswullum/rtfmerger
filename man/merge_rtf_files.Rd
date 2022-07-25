@@ -2,13 +2,22 @@
 % Please edit documentation in R/merge_rtf_files.R
 \name{merge_rtf_files}
 \alias{merge_rtf_files}
-\title{Merge RTF files into one single RTF file}
+\title{Merge RTFs}
 \usage{
 merge_rtf_files(path)
 }
 \arguments{
-\item{path}{a vector of RTF file path}
+\item{path}{}
+}
+\value{
+Returns a merged RTF character vector
 }
 \description{
-Merge RTF files into one single RTF file
+Merges RTF files - rtf character vectors - that are read
+linewise using readLine.
+}
+\examples{
+paths = c("path1/file1.rtf", "path2/file2.rtf")
+mergedrtf = merge_rtf_files(paths)
+writeLines(mergedrtf, "mergedfile1andfile2.rtf")
 }

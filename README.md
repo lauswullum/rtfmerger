@@ -3,7 +3,7 @@
 ---
 ### Introduction
 This package currently only does two things:
-- Merges RTF into a single document: `merge_rtf_files` 
+- Merges RTF files into a single document: `merge_rtf_files` 
 - Orients RTF files: `orient_rtf`
 
 ---
